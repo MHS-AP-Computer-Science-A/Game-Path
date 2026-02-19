@@ -1,4 +1,4 @@
-public class GameGrid {
+public class GamePath {
     /**
      * A grid that a game piece moves on. Each element indicates the
      * direction the game piece should move next (either "NE", "NW",
@@ -30,3 +30,4 @@ public class GameGrid {
      */
 
 }
+
