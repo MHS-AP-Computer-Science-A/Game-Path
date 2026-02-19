@@ -1,4 +1,4 @@
-public class GameGridTester {
+public class GamePathTester {
  public static void main(String[] args)
     {
         // Create the example grid from the problem
@@ -51,3 +51,4 @@ public class GameGridTester {
         System.out.println("===== DONE =====");
     }
 }
+
