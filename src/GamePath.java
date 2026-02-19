@@ -20,37 +20,13 @@ public class GameGrid {
      * boundaries of the grid.
      * Postcondition: grid is unchanged.
      */
-    public int navigate(int startRow, int startCol) { /* to be implemented */
-        int length = 1;
-
-        while (true) {
-            if (grid[startRow][startCol].equals("NE")) {
-                startRow--;
-                startCol++;
-            }
-            else if (grid[startRow][startCol].equals("NW")) {
-                startRow--;
-                startCol--;
-            }
-            else if (grid[startRow][startCol].equals("SE")) {
-                startRow++;
-                startCol++;
-            }
-            else if (grid[startRow][startCol].equals("SW")) {
-                startRow++;
-                startCol--;
-            }
-            if(startRow < 0 || startRow >= grid.length || startCol < 0 || startCol >= grid[0].length){
-                return length;
-            }
-            length++;
-
-        }
-
+    public int navigate(int startRow, int startCol) { 
+        /* to be implemented */
     }
 
     /*
      * There may be instance variables, constructors,
      * and methods that are not shown.
      */
+
 }
