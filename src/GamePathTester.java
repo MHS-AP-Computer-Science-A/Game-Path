@@ -10,7 +10,7 @@ public class GamePathTester {
             {"SW","NE","NW","NE","SE","NE","SW"}
         };
 
-        GameGrid grid = new GameGrid(data);
+        GamePath grid = new GamePath(data);
 
 
         int result1 = grid.navigate(0, 0);
@@ -51,4 +51,3 @@ public class GamePathTester {
         System.out.println("===== DONE =====");
     }
 }
-
