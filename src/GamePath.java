@@ -6,7 +6,7 @@ public class GamePath {
      */
     private String[][] grid;
 
-    public GameGrid(String[][] grid) {
+    public GamePath(String[][] grid) {
         this.grid = grid;
     }
 
@@ -30,4 +30,5 @@ public class GamePath {
      */
 
 }
+
 
